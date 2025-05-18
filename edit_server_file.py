@@ -16,4 +16,4 @@ def updateserver_config(filepath, key , vaule, operator):
             else:
                 file.write(eachlines)
 
-updateserver_config("server.conf","error_log","/var/log/nginx/SAMPLE.log"," " )
+updateserver_config("server01.conf","error_log","/var/log/nginx/SAMPLE.log"," " )
